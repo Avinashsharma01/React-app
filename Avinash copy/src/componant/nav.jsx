@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 function Nav({logo,home,services, contact, about,darkmode,darkText}){
     return(
         <>
-        <div className="text-white flex justify-around bg-black  h-[60px]  items-center sticky top-0 border-b-[1px]">
+        <div className="text-white flex justify-around bg-black  h-[60px]  items-center sticky top-0 ">
             <div>
                 <h1 className="text-xl"> {logo}</h1>
             </div>

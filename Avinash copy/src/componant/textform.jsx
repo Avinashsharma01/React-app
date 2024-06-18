@@ -145,19 +145,19 @@ function Textform({ heading ,Hello}) {
                     </button>
                     <button
                         onClick={CopyText}
-                        className="w-auto bg-emerald-800 text-white p-2 px-5 rounded-lg mr-4"
+                        className="w-auto bg-green-600 text-white p-2 px-5 rounded-lg mr-4"
                     >
                         Copy
                     </button>
                     <button
                         onClick={RemoveExtraSpace}
-                        className="w-auto bg-fuchsia-800 text-white p-2 px-5 rounded-lg mr-4"
+                        className="w-auto bg-blue-600 text-white p-2 px-5 rounded-lg mr-4"
                     >
                         Remove Extra space
                     </button>
                     <button
                         onClick={ChangeColor}
-                        className="w-auto bg-purple-800 text-white p-2 px-5 rounded-lg mr-4"
+                        className="w-auto bg-green-600 text-white p-2 px-5 rounded-lg mr-4"
                     >
                         Change text Color
                     </button>
