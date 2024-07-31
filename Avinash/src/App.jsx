@@ -39,6 +39,7 @@ function App() {
                     darkText={darkText}
                 />
 
+                <div className="con sticky top-[60px] -z-3">
                 <div className="w-full h-screen flex justify-start items-center flex-col">
                     <Textform
                         heading={
@@ -46,6 +47,7 @@ function App() {
                         }
                         Hello={Mystyle}
                     />
+                </div>
                 </div>
             </div>
         </>

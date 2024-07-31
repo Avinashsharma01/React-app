@@ -170,7 +170,7 @@ function Textform({ heading ,Hello}) {
                 </div>
             </div>
 
-            <div className="preview px-20 text-red-600 h-auto " style={Hello}>
+            <div className="preview px-20 text-red-600 h-auto overflow-y-scroll" style={Hello}>
                 <p>{Text}</p>
             </div>
         </>
