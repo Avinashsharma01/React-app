@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import PropTypes from 'prop-types'
+import { NavLink } from 'react-router-dom'
 function Nav({logo,home,services, contact, about,darkmode,darkText}){
     return(
         <>
@@ -8,10 +9,10 @@ function Nav({logo,home,services, contact, about,darkmode,darkText}){
                 <h1 className="text-xl"> {logo}</h1>
             </div>
             <div className="link">
-                <a className="px-2 text-lg"  href="">{home} </a>
-                <a className="px-2 text-lg"  href="">{about} </a>
-                <a className="px-2 text-lg"  href="">{services} </a>
-                <a className="px-2 text-lg"  href="">{contact} </a>
+                <NavLink className="px-2 text-lg"  activeClassName="active" to="/">{home} </NavLink>
+                <NavLink className="px-2 text-lg"  activeClassName="active" to="about">{about} </NavLink>
+                <NavLink className="px-2 text-lg"  activeClassName="active" to="services">{services} </NavLink>
+                <NavLink className="px-2 text-lg"  activeClassName="active" to="contact">{contact} </NavLink>
             </div>
             <div className="dark-mode">
                 <button onClick={darkmode} className='bg-white text-black p-2 rounded-lg'>{darkText}</button>

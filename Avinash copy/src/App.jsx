@@ -39,7 +39,7 @@ function App() {
                     darkText={darkText}
                 />
 
-                <div className="w-full h-screen flex justify-start items-center flex-col">
+                <div className="w-full h-screen flex justify-start items-center flex-col ">
                     <Textform
                         heading={
                             "Type your word here and Capitalize whatever you want "
